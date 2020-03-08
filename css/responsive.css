@@ -1,0 +1,47 @@
+@media screen and (max-width: 992px){
+	html{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 768px){
+	html{
+		font-size: 85%;
+	}
+	.nav__list{
+		display: none;
+	}
+	.nav__list--open,
+	.nav__btn{
+		display: block;
+	}
+	.nav__item{
+		padding: 0.7rem 0;
+	}
+}
+@media screen and (max-width: 600px){
+	.header__logo,
+	.header__contact{
+		float:none;
+		text-align: center;
+	}
+	.header__contact{
+		padding-top: 1rem;
+	}
+	.slider__item{
+	padding-top: 16rem;
+	}
+	.grid{
+		grid-template-columns: 1fr;
+	}
+	.advantage{
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.advantage__item{
+		padding-bottom: 2rem;
+	}
+	.advantage__item:last-child{
+		padding-bottom: 0;
+	}
+}
